@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "language": "vi",
+  "games": [
+    {
+      "title": "Pokémon Emerald (USA)",
+      "game_code": "BPEE",
+      "cheats": []
+    },
+    {
+      "title": "Pokémon FireRed (USA)",
+      "game_code": "BPRE",
+      "cheats": []
+    },
+    {
+      "title": "Pokémon LeafGreen (USA)",
+      "game_code": "BPGE",
+      "cheats": []
+    }
+  ]
+}
