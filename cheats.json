@@ -1,21 +1,65 @@
 {
-  "version": 1,
+  "name": "Kho Cheat Pokemon Tieng Viet",
+  "version": "1.1",
   "language": "vi",
+  "description": "Bo ma GameShark/Action Replay dang 8+8 tu goi cheat tong hop. Tat ca chua duoc kiem thu tren ROM cua nguoi dung.",
   "games": [
     {
-      "title": "Pokémon Emerald (USA)",
+      "game_id": "pokemon-firered-bpre",
+      "title": "Pokémon FireRed USA (BPRE)",
+      "game_code": "BPRE",
+      "cheats": [
+        {"id":"bpre-wall","name":"Đi xuyên tường","codes":["509197D3 542975F4","78DA95DF 44018CB4"],"notes":"GameShark/Action Replay. Chưa xác minh; tắt trước khi lưu hoặc chuyển khu vực.","verified":false},
+        {"id":"bpre-encounter","name":"Không gặp Pokémon hoang dã","codes":["D41DD0CA 33A629E5","8E883EFF 92E9660D"],"notes":"GameShark/Action Replay. Chưa xác minh; cần đúng ROM USA/revision.","verified":false},
+        {"id":"bpre-catch","name":"Tỉ lệ bắt Pokémon 100%","codes":["87ACF659 707466DC","8BB602F7 8CEB681A"],"notes":"GameShark/Action Replay. Chưa xác minh; tắt nếu gây lỗi trận đấu.","verified":false},
+        {"id":"bpre-badges","name":"Đủ 8 huy hiệu Kanto","codes":["EFCE867D 5403D40D"],"notes":"GameShark/Action Replay. Chưa xác minh; sao lưu save trước khi dùng.","verified":false}
+      ]
+    },
+    {
+      "game_id": "pokemon-leafgreen-bpge",
+      "title": "Pokémon LeafGreen USA (BPGE)",
+      "game_code": "BPGE",
+      "cheats": [
+        {"id":"bpge-wall","name":"Đi xuyên tường","codes":["509197D3 542975F4","78DA95DF 44018CB4"],"notes":"GameShark/Action Replay. Chưa xác minh; tắt trước khi lưu hoặc chuyển khu vực.","verified":false},
+        {"id":"bpge-badges","name":"Đủ 8 huy hiệu","codes":["EFCE867D 5403D40D"],"notes":"GameShark/Action Replay. Chưa xác minh; sao lưu save trước khi dùng.","verified":false}
+      ]
+    },
+    {
+      "game_id": "pokemon-ruby-axve",
+      "title": "Pokémon Ruby USA (AXVE)",
+      "game_code": "AXVE",
+      "cheats": [
+        {"id":"axve-master","name":"Master Code (GameShark/Action Replay)","codes":["DE00AAFD 2EBD05D0","530823D9 16558191"],"notes":"Master Code GameShark/AR; chưa xác minh. Chỉ dùng với đúng ROM Ruby USA.","verified":false},
+        {"id":"axve-encounter","name":"Không gặp Pokémon hoang dã","codes":["1202E8C0 00000000"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axve-money","name":"Tiền tối đa","codes":["22025BC4 000F423F"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axve-onehit","name":"Một hit hạ đối thủ","codes":["03004616 00000000"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axve-exp","name":"Tăng EXP nhanh","codes":["12024BEC 000003E8"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axve-pokedex","name":"Có Pokédex và PokéNav","codes":["12026A54 0000FFFF"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axve-shoes","name":"Có giày chạy","codes":["02026A60 00000001"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axve-coins","name":"9999 xu Game Corner","codes":["12025BC8 0000270F"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false}
+      ]
+    },
+    {
+      "game_id": "pokemon-sapphire-axpe",
+      "title": "Pokémon Sapphire USA (AXPE)",
+      "game_code": "AXPE",
+      "cheats": [
+        {"id":"axpe-master","name":"Master Code (GameShark/Action Replay)","codes":["DE00AAFD 2EBD05D0","B4564EFE 23F44BF2"],"notes":"Master Code GameShark/AR; chưa xác minh. Chỉ dùng với đúng ROM Sapphire USA.","verified":false},
+        {"id":"axpe-encounter","name":"Không gặp Pokémon hoang dã","codes":["1202E8C0 00000000"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axpe-money","name":"Tiền tối đa","codes":["22025BC4 000F423F"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axpe-onehit","name":"Một hit hạ đối thủ","codes":["03004616 00000000"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axpe-exp","name":"Tăng cấp nhanh","codes":["12024BEC 000003E8"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axpe-pokedex","name":"Có Pokédex và PokéNav","codes":["12026A54 0000FFFF"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axpe-shoes","name":"Có giày chạy","codes":["02026A60 00000001"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false},
+        {"id":"axpe-coins","name":"9999 xu Game Corner","codes":["12025BC8 0000270F"],"notes":"GameShark/Action Replay. Chưa xác minh.","verified":false}
+      ]
+    },
+    {
+      "game_id": "pokemon-emerald-bpee",
+      "title": "Pokémon Emerald USA (BPEE)",
       "game_code": "BPEE",
       "cheats": []
-    },
-    {
-      "title": "Pokémon FireRed (USA)",
-      "game_code": "BPRE",
-      "cheats": []
-    },
-    {
-      "title": "Pokémon LeafGreen (USA)",
-      "game_code": "BPGE",
-      "cheats": []
     }
-  ]
+  ],
+  "note": "Các mã CodeBreaker 8+4 trong bộ cũ không đưa vào đây vì bộ nhập JSON hiện tại chỉ chấp nhận mỗi dòng mã gồm 8 ký tự hex + 8 ký tự hex. Emerald chưa có mã 8+8 phù hợp trong nguồn gói cũ. Tất cả mã cần sao lưu save và tự kiểm tra đúng phiên bản ROM trước khi bật."
 }
